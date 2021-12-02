@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"SASS/style.scss"
+	],
+	"sourcesContent": [
+		"div {\r\n\twidth: 200px;\r\n\theight: 200px;\r\n\tbackground-color: #CCCCCC;\r\n\t-webkit-clip-path: polygon(50% 0%, 100% 82%, 50% 100%, 0 82%);\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,GAAG,CAAC;EACH,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;EACzB,iBAAiB,EAAE,0CAA0C;CAC7D"
+}
