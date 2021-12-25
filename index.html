@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;700&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
 	
@@ -37,13 +38,13 @@
 				</span>
 	    	</h1>
 	    	<div>
-	    		<a href="" class="hire-me">HIRE ME</a>
-	    		<a href="" class="recent-work">RECENT WORK</a>
+	    		<a href="#contact-section" class="hire-me">HIRE ME</a>
+	    		<a href="#work-section" class="recent-work">RECENT WORK</a>
 	    	</div>
 		</div>
 		<div class="header-image">
-			<img src="./Media/Images/Polygon.svg" alt="">
-			<img src="./Media/Images/Pablo.png" alt="">
+			<img src="./Media/Images/Polygon.svg" id="para1" alt="">
+			<img src="./Media/Images/Pablo.png" id="para2" alt="">
 		</div>
 		<div class="header-social">
 			<ul>
@@ -122,17 +123,41 @@
 
 	<div id="work-section">
 		<div class="project-container">
-			
+			<div class="project">
+				<img src="../Material/Metegol-867708817-large2.jpg" alt="">
+				<div class="more"></div>
+			</div>
+			<div class="project">
+				<img src="../Material/La_m_quina_que_hace_estrellas-778478991-mmed.jpg" alt="">
+				<div class="more"></div>
+			</div>
+			<div class="project">
+				<img src="../Material/cuentos.jpg" alt="">
+				<div class="more"></div>
+			</div>
+			<div class="project">
+				<img src="../Material/Metegol-867708817-large2.jpg" alt="">
+				<div class="more"></div>
+			</div>
+			<div class="project">
+				<img src="../Material/Metegol-867708817-large2.jpg" alt="">
+				<div class="more"></div>
+			</div>
+			<div class="project">
+				<img src="../Material/Metegol-867708817-large2.jpg" alt="">
+				<div class="more"></div>
+			</div>
 		</div>
-		<div class="project-arrow">
+		<div id="project-data-screen"></div>
+		<!-- <div class="project-arrow">
 			<p>READ MORE</p>
 			<div class="arrow"></div>
-		</div>
+		</div> -->
 	</div>
 
 	<div id="contact-section">
 		<h4>CONTACT ME</h4>
-		<form action="">
+		<form action="" autocomplete="off">
 			<div>
 				<input type="text" placeholder="Name" name="Name" required>
 				<input type="text" placeholder="Lastname" name="Lastname">
@@ -143,9 +168,14 @@
 		</form>
 	</div>
 	<div id="footer-section">
-		<p>Copyright © 2021 by Pablo Emmanuel De Leo. all rights reserved.</p>
+		<p>Copyright © <span id="year"></span> by Pablo Emmanuel De Leo. all rights reserved.</p>
 	</div>
 	
-	<script type="text/javascript" src="./main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./button.js"></script>
+	<script type="text/javascript" src="./parallax.js"></script>
+	<script type="text/javascript" src="./date.js"></script>
+	<script type="text/javascript" src="./work.js"></script>
+
 </body>
 </html>
