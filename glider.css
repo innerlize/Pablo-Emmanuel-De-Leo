@@ -58,17 +58,19 @@
   border: 0;
   top: 30%;
   cursor: pointer;
-  color: #666;
+  color: #F2F2F2;
   opacity: 1;
   line-height: 1;
   transition: opacity .2s cubic-bezier(.17,.67,.83,.67),
-              color .2s cubic-bezier(.17,.67,.83,.67);
+              color .2s cubic-bezier(.17,.67,.83,.67),
+              transform .2s cubic-bezier(.17,.67,.83,.67);
 }
 .glider-prev:hover,
 .glider-next:hover,
 .glider-prev:focus,
 .glider-next:focus {
-  color: #a89cc8;
+  color: #FFFF00;
+  transform: scale(1.1);
 }
 .glider-next {
   right: -23px;
