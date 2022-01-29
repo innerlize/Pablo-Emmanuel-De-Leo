@@ -1,0 +1,1 @@
+$('.project-containerMob .project img').attr('data-aos-ancho-placement', 'bottom-bottom');
