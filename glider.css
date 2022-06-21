@@ -66,9 +66,7 @@
               transform .2s cubic-bezier(.17,.67,.83,.67);
 }
 .glider-prev:hover,
-.glider-next:hover,
-.glider-prev:focus,
-.glider-next:focus {
+.glider-next:hover {
   color: #FFFF00;
   transform: scale(1.1);
 }
