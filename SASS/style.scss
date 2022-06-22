@@ -473,6 +473,7 @@ nav {
 		align-items: center;
 		overflow-y: scroll;
 		width: 100%;
+		height: 100vh;
 		padding: 13px 13.5px;
 		overflow: overlay;
 
@@ -1083,24 +1084,33 @@ nav {
 					z-index: 6000;
 				}
 
-				.hire-me {
-					padding: 18px 47px !important;
-					background-color: $grey;
-					color: $black;
-					transition: all .2s linear;
-				}
+				div {
+					display: flex;
+					justify-content: space-between;
+					text-align: center;
 
-				.recent-work {
-					margin-left: 25px;
-					padding: 18px 17px;
-					color: rgba(204, 204, 204, .5);
-					position: relative;
-					border: 1px solid rgba(242, 242, 242, .5);
-					transition: all .2s linear;
+					.hire-me {
+						width: 47%;
+						padding: 18px 0 !important;
+						display: inline-block;
+						background-color: $grey;
+						color: $black;
+						transition: all .2s linear;
+					}
+
+					.recent-work {
+						width: 47%;
+						padding: 18px 0 !important;
+						color: rgba(204, 204, 204, .5);
+						position: relative;
+						border: 1px solid rgba(242, 242, 242, .5);
+						transition: all .2s linear;
+					}
+
 				}
 
 				.download-resume {
-					width: 95%;
+					width: 100%;
 					text-align: center;
 					margin-top: 25px;
 					color: $white;
@@ -1265,7 +1275,7 @@ nav {
 			flex-wrap: nowrap;
 			overflow-y: initial;
 			overflow-x: hidden !important;
-			overflow: overlay;
+			overflow: hidden;
 			justify-content: initial;
 			align-items: initial;
 			min-height: 100vh;
